@@ -2,15 +2,15 @@
 
 > End-to-end API automation with **REST Assured** and **TestNG**, covering **auth**, **CRUD**, **schema validation**, and **data-driven** test flows.
 
-[![REST Assured API Tests](https://github.com/YOUR_GH_USER/rest-assured-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/YOUR_GH_USER/rest-assured-api-tests/actions/workflows/tests.yml)
+[![REST Assured API Tests](https://github.com/bakhrom-i/rest-assured-api-tests/actions/workflows/tests.yml/badge.svg)](https://github.com/bakhrom-i/rest-assured-api-tests/actions/workflows/tests.yml)
 ![Java](https://img.shields.io/badge/java-17-orange)
 ![REST_Assured](https://img.shields.io/badge/REST--Assured-5.4-orange)
 ![TestNG](https://img.shields.io/badge/TestNG-7.10-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-**📊 Live test report:** https://YOUR_GH_USER.github.io/rest-assured-api-tests/
+**📊 Live test report:** https://bakhrom-i.github.io/rest-assured-api-tests/
 
-> _Replace `YOUR_GH_USER` with your GitHub username after pushing._
+> _Replace `bakhrom-i` with your GitHub username after pushing._
 
 ## Tech Stack
 
@@ -70,7 +70,7 @@ Same flows are mirrored in `postman/portfolio-api.postman_collection.json` for e
 
 1. Push the repo to GitHub
 2. **Settings** → **Pages** → **Source: GitHub Actions**
-3. Push to `main` — `publish-report` deploys to `https://YOUR_GH_USER.github.io/rest-assured-api-tests/`
+3. Push to `main` — `publish-report` deploys to `https://bakhrom-i.github.io/rest-assured-api-tests/`
 
 ## License
 
