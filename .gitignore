@@ -1,0 +1,12 @@
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+.DS_Store
+test-output/
+allure-results/
+allure-report/
+*.log
+.env
+*.local

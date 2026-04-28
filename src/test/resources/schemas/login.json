@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LoginResponse",
+  "type": "object",
+  "required": ["token", "expiresIn"],
+  "properties": {
+    "token":     { "type": "string", "minLength": 10 },
+    "expiresIn": { "type": "integer", "minimum": 1 },
+    "user": {
+      "type": "object",
+      "required": ["id", "email"],
+      "properties": {
+        "id":    { "type": ["string", "integer"] },
+        "email": { "type": "string", "format": "email" }
+      }
+    }
+  }
+}
