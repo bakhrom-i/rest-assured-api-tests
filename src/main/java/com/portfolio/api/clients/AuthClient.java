@@ -11,6 +11,7 @@ public class AuthClient {
     public Response login(String user, String pwd) {
         return given()
                 .baseUri(Config.baseUrl())
+                .header("x-api-key", "reqres-free-v1")
                 .contentType("application/json")
                 .body(Map.of("email", user, "password", pwd))
                 .when()
